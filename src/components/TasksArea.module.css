@@ -1,0 +1,35 @@
+.post {
+    display: flex;
+    margin: 0 0 1rem 0;
+    height: 60px;
+    justify-content: center;
+    background: #c5c4c4;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.post p {
+    width: 300px;
+    text-align: center;
+    margin-right: 3px;
+    align-self: center;
+    font-size: 18px;
+}
+
+.withLine {
+    text-decoration-line: line-through;
+    text-decoration-color: #000000;
+}
+
+.post button {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    align-items: center;
+    margin-left: .3rem;
+    cursor: pointer;
+}
+
+.post button:hover {
+    box-shadow: rgba(90, 90, 90, 0.35) 5px 5px 10px;
+}
